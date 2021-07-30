@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+
+:root{
+    --primary: #DDFFBC;
+    --dark-green: #52734D;
+    --light-green: #91C788;
+}
+
+body{
+    text-align: center;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    color: var(--primary);
+    font-size: 4rem;
+    display: inline;
+    font-weight: 700;
+    font-family: 'Righteous', cursive;
+}
+
+.heading{
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    background-color: var(--dark-green);
+}
+
+#inputBox{
+    border: 3px solid black;
+    outline: 4px solid var(--light-green);
+    font-size: 0.9rem; 
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#outputBox{
+    border: 3px solid black;
+    outline: 4px solid var(--light-green);
+    margin: auto;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;   
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 0.5rem;
+    cursor: pointer;
+    font-weight: 400;
+    border: none;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover{
+    background-color: var(--dark-green);
+    color: white;
+    border: none;
+    
+}
+
+footer{
+    margin-top: 3rem;
+    background-color: var(--dark-green);
+    padding: 0.9rem;
+    color: var(--primary);
+    
+}
+
+footer h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+footer p{
+    color: white;
+    font-weight: lighter;
+}
+
+footer .fa-github{
+    font-size:34px; 
+    color: var(--primary);
+}
+
+footer .fa-github:hover{
+    color: white;
+}
